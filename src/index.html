@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>protótipo de menu</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <header class="bg-gray-900">
+        <div class="flex justify-evenly items-center p-6">
+            <p class="text-xl font-black text-white">Logo</p>        
+
+            <ul class="hidden gap-5 md:flex">
+                <li><a href="#" class="text-gray-200 hover:bg-gray-600 py-2 px-4 rounded-sm transition-all ease-in-out 150">Home</a></li>
+                <li><a href="#" class="text-gray-200 hover:bg-gray-600 py-2 px-4 rounded-sm transition-all ease-in-out 150">About</a></li>
+                <li><a href="#" class="text-gray-200 hover:bg-gray-600 py-2 px-4 rounded-sm transition-all ease-in-out 150">Services</a></li>
+                <li><a href="#" class="text-gray-200 hover:bg-gray-600 py-2 px-4 rounded-sm transition-all ease-in-out 150">Contact</a></li>
+            </ul>
+
+            <ion-icon name="menu-outline" class="md:hidden btnOpenMenu text-white text-4xl py-2 px-4"></ion-icon>
+
+        </div>
+
+        <div class="hidden md:hidden py-10 menu">
+            <ul class="text-center">
+                <li><a href="#" class="text-gray-200 hover:bg-gray-600 py-2 px-4 rounded-sm transition-all ease-in-out 150 block">Home</a></li>
+                <li><a href="#" class="text-gray-200 hover:bg-gray-600 py-2 px-4 rounded-sm transition-all ease-in-out 150 block">About</a></li>
+                <li><a href="#" class="text-gray-200 hover:bg-gray-600 py-2 px-4 rounded-sm transition-all ease-in-out 150 block">Services</a></li>
+                <li><a href="#" class="text-gray-200 hover:bg-gray-600 py-2 px-4 rounded-sm transition-all ease-in-out 150 block">Contact</a></li>
+             </ul>
+        </div>
+    </header>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
